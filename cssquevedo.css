@@ -1,0 +1,101 @@
+
+.contenedor {
+  display: flex;
+  background-color: royalblue;
+  flex-direction: row;
+}
+
+.bibliografia{
+    width: 90%;
+    background-color: #45B39D ;
+  color: white;
+  margin: 10px;
+  text-align: center;
+
+  font-size: 27px;
+  
+}
+
+.temaslanzados{
+    width: 90%;
+    background-color: #45B39D ;
+  color: white;
+  margin: 10px;
+  text-align: justify;
+  padding-right: 30px;
+
+  font-size: 27px;
+  
+
+}
+.cancion{
+
+    margin-right: 10px;
+}
+
+
+
+img{
+    margin: 10px;
+    width: 98%;
+    height: 97%;
+    
+    
+}
+
+body{
+
+    background-color:#85929E  ;
+}
+
+.quevedo{
+
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+h2{
+
+  text-align: center;
+
+}
+
+h3{
+
+  text-align: center;
+
+}
+
+.footer{
+  text-align: center;
+  
+
+}
+
+.audio{
+
+  align-items: center;
+
+}
+
+@media (max-width: 800px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  .bibliografia {
+    width: 97%;
+  }
+
+  .temaslanzados {
+    width: 97%;
+    padding-right: 0%;
+  }
+
+  .cancion {
+    width: 99%;
+    margin-right: 0%;
+  }
+
+ 
+  }
